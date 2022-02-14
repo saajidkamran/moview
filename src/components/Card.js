@@ -2,7 +2,7 @@ import React from "react";
 import "./card.css";
 
 function Card(props) {
-  console.log(props.title);
+  console.log("this is props titile ",props.title);
   return (
     <div className="card">
       <div className="card_Container">
@@ -13,8 +13,8 @@ function Card(props) {
             alt="/"
           />
         </div>
-        <h2 className="card__Title">etet</h2>
-        <p className="card__Para">asdasdasdffeg</p>
+        <h2 className="card__Title">{props.title}</h2>
+        <p className="card__Para">{props.content}</p>
         <button className="card__Btn">View</button>
       </div>
     </div>
