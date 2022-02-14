@@ -1,0 +1,64 @@
+.card_Container {
+  border: 2px solid rgb(136, 136, 4);
+  width: 350px;
+  height: 250px;
+  background-color: rgb(212, 194, 30);
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(241, 186, 3, 0.2),
+    0 6px 20px 0 rgba(219, 241, 13, 0.19);
+  text-align: center;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px auto 20px 50px;
+  max-width: 90%;
+  width: 350px;
+}
+.card__Detail {
+  border: 2px solid white;
+  height: 50%;
+  width: auto;
+  border-radius: 25px;
+  background-color: aliceblue;
+  z-index: -1;
+}
+.card_Image {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 100px;
+}
+.card__Title {
+  margin-top: -19px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
+  font-size: 30px;
+}
+.card__Para {
+  font-weight: 10px;
+  font-size: small;
+}
+.card__Btn {
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding: 0.5rem 2rem;
+  margin: 20px;
+  background-color: rgb(51, 51, 51, 0.5);
+}
+.card__Detail:hover {
+  background-color: rgb(240, 237, 233);
+  border-color: rgb(212, 194, 30);
+}
+.card_Container:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card__Btn:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

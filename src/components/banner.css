@@ -1,0 +1,70 @@
+.banner__Container > img {
+  width: 100%;
+  height: 550px;
+  margin: 0;
+  position: absolute;
+  margin-top: 50px;
+  background-size: cover;
+  top: 0;
+  z-index: -1;
+}
+.banner__Container {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  position: static;
+  border-bottom: #000 solid 5px;
+  margin-top: 50px;
+}
+.bannerBtn:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.2s;
+}
+.bannerBtn {
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 800;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: 1rem;
+  background-color: rgba(5, 5, 5, 0.5);
+}
+.banner_buttons {
+  margin-top: 25px;
+}
+.banner_Content {
+  text-align: center;
+  margin: 250px;
+  padding: 25px;
+  margin: 0px 0px 0px 250px;
+  padding-top: 250px;
+  max-height: 200px;
+  max-width: 800px;
+}
+.banner_Content > h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 100px;
+  font-weight: 1000;
+  position: static;
+  box-shadow: 4px 4px 8px 4px #0a0909ef, 0 6px 20px 0 rgba(0, 0, 0, 0.493);
+}
+.banner--fadeBottom {
+  height: 100%;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(255, 255, 255, 0.61),
+    rgb(71, 71, 4)
+  );
+}
+.banner_description {
+  margin-top: 25px;
+  padding: 5px;
+}

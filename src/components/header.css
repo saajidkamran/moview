@@ -1,0 +1,36 @@
+.header {
+  position: fixed;
+  background-color: yellow;
+  padding: 10px;
+  height: 30px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 #00000000, 0 6px 20px 0 rgba(0, 0, 0, 0.493);
+  display: flex;
+  top: 0px;
+}
+h1 {
+  padding: 2px;
+  position: relative;
+  margin-left: 50px;
+  cursor: pointer;
+  font-family: 'Anton', sans-serif;
+}
+.btnSign {
+  margin-left: 85%;
+  position: fixed;
+  left: 20px;
+  width: 90px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: rgb(30, 31, 27);
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  cursor: pointer;
+}
+.btnSign:hover {
+  color: yellow;
+  box-shadow: 0 4px 8px 0 rgba(161, 143, 143, 0.2),
+    0 6px 20px 0 rgba(255, 246, 246, 0.19);
+}
