@@ -1,0 +1,137 @@
+.login {
+  margin-top: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginButton_google {
+  background-color: rgba(245, 23, 23, 0.438);
+  display: flex;
+  border: black 1px solid;
+  margin: 5px 0px;
+  text-align: center;
+  padding: 5px;
+  font-weight: 20px;
+  padding-right: 25px;
+  cursor: pointer;
+}
+.loginButton_git {
+  background-color: rgba(17, 8, 8, 0.308);
+  display: flex;
+  border: black 1px solid;
+  margin: 5px 0px;
+  text-align: center;
+  padding: 5px;
+  font-weight: 20px;
+  padding-right: 25px;
+  color: rgb(12, 12, 12);
+  cursor: pointer;
+}
+.loginButton_facebook {
+  background-color: rgba(37, 26, 139, 0.973);
+  display: flex;
+  border: black 1px solid;
+  margin: 5px 0px;
+  text-align: center;
+  padding: 5px;
+  font-weight: 20px;
+  padding-right: 25px;
+  color: white;
+  cursor: pointer;
+}
+.loginButton_google > h4 {
+  margin-left: 25px;
+}
+.loginButton_git > h4 {
+  margin-left: 25px;
+}
+.loginButton_facebook > h4 {
+  margin-left: 25px;
+}
+.loginButton_google > img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  margin-left: 50px;
+}
+.loginButton_facebook > img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  margin-left: 50px;
+}
+.loginButton_git > img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  margin-left: 50px;
+}
+.line_Break {
+  margin-top: 20px;
+  border: black 1px solid;
+}
+.login__signInButtonGoogle {
+  background: #f0f0f0;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  padding: 1px;
+}
+
+.login__container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 5px solid rgb(97, 96, 96);
+  padding: 20px;
+}
+
+.login__container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.login__container > form > h5 {
+  margin-bottom: 5px;
+}
+
+.login__container > form > input {
+  height: 35px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.login__signInButton {
+  background: #f0c14b;
+  border-radius: 20px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+}
+.login__registerButton {
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: rgb(75, 70, 70);
+}
+.login__registerButton:hover {
+  background: #f0c14b;
+}
+.login__signInButton:hover {
+  background-color: rgb(187, 187, 105);
+}

@@ -10,13 +10,14 @@
 }
 h1 {
   padding: 2px;
-  position: relative;
+  position: static;
   margin-left: 50px;
   cursor: pointer;
   font-family: 'Anton', sans-serif;
 }
 .btnSign {
   margin-left: 85%;
+  margin-right: auto;
   position: fixed;
   left: 20px;
   width: 90px;

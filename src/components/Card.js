@@ -2,7 +2,6 @@ import React from "react";
 import "./card.css";
 
 function Card(props) {
-  console.log("this is props titile ",props.title);
   return (
     <div className="card">
       <div className="card_Container">

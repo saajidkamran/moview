@@ -33,8 +33,6 @@ function Banner() {
       }}
     >
       <div className="banner_Content">
-     
-
         <h1 className="content__Title">
           {movieDetail?.title ||
             movieDetail?.name ||
